@@ -1,0 +1,9 @@
+[
+  {
+    "model": "django_service_example.card",
+    "pk": 1,
+    "fields": {
+	"last4": "1234"
+    }
+  }
+]
