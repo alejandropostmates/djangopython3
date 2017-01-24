@@ -38,9 +38,9 @@ When using the MVC pattern, oftentimes the controller or model do too much outsi
 
 Controller → Service → Model
 
-**Controller** - Calls services, decides redirect or render
-**Service** - Works with models to run database queries and process data at a higher level, provides simple flat API for use by controller
-**Model** - Represents database schema
+**Controller** - Calls services, decides redirect or render  
+**Service** - Works with models to run database queries and process data at a higher level, provides simple flat API for use by controller  
+**Model** - Represents database schema  
 **Serializer** - Traditionally the "view" in an API, just focuses on how to output data (e.g. JSON)
 
 A controller calls a high-level service method, and merely passes along the resulting data to the serializer, which passes it onto the view. This makes for **thin controllers**.
