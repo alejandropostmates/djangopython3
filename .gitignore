@@ -1,0 +1,12 @@
+*.py[c,o]
+*~
+db.*
+build/*
+static/*
+env
+.DS_Store
+htmlcov
+.idea/*
+.project
+.pydevproject
+.settings
