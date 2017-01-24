@@ -1,11 +1,11 @@
 Django Service Example
 ======================
 
-** Requirements **
+## Requirements
 
 * Python 3
 
-** Setup **
+## Setup
 
 From the main folder, run migrations and load sample data:
 
@@ -23,7 +23,7 @@ python3 ./manage.py runserver
 And navigate to the demo endpoint:
 http://localhost:8000/cards/
 
-** Example **
+## Example
 
 /cards/
 
@@ -32,7 +32,7 @@ http://localhost:8000/cards/
 3. CardsService calls model method to fetch cards
 4. Controller calls render function on cards data
 
-** Explanation **
+## Explanation
 
 When using the MVC pattern, oftentimes the controller or model do too much outside of their domain (model queries, manipulation). By adding a service layer in between the controller and the model, we **separate concerns** better.
 
