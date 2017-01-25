@@ -4,6 +4,7 @@ Django Service Example
 ## Requirements
 
 * Python 3
+* Django 1.10
 
 ## Setup
 
